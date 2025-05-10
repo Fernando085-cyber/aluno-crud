@@ -1,7 +1,7 @@
-package Service;
+package com.seuprojeto.aluno_crud.Service;
 
-import Interface.AlunoRepository;
-import Model.Aluno;
+import com.seuprojeto.aluno_crud.Interface.AlunoRepository;
+import com.seuprojeto.aluno_crud.Model.Aluno;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

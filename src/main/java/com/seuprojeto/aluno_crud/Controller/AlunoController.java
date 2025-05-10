@@ -1,14 +1,14 @@
-package Controller;
+package com.seuprojeto.aluno_crud.Controller;
 
-import Model.Aluno;
-import Service.AlunoService;
+import com.seuprojeto.aluno_crud.Model.Aluno;
+import com.seuprojeto.aluno_crud.Service.AlunoService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-//@RequestMapping("/alunos")
-@RequestMapping
+@RequestMapping("/alunos")
+//@RequestMapping
 public class AlunoController {
 
     private final AlunoService service;

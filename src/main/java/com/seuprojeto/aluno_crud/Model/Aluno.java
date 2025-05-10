@@ -1,4 +1,4 @@
-package Model;
+package com.seuprojeto.aluno_crud.Model;
 
 import jakarta.persistence.*;
 

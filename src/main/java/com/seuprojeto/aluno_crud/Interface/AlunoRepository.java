@@ -1,6 +1,6 @@
-package Interface;
+package com.seuprojeto.aluno_crud.Interface;
 
-import Model.Aluno;
+import com.seuprojeto.aluno_crud.Model.Aluno;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AlunoRepository extends JpaRepository<Aluno, Long> {
