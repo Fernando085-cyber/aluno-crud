@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/alunos")
+//@RequestMapping("/alunos")
+@RequestMapping
 public class AlunoController {
 
     private final AlunoService service;
